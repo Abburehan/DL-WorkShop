@@ -41,10 +41,6 @@ Import the necessary libraries:
 - Calculate mean and standard deviation for each numerical feature.  
 - Standardize values:  
 
-\[
-x_{\text{norm}} = \frac{x - \text{mean}}{\text{std}}
-\]
-
 #### Prepare Labels
 - Convert `income` column:  
   - `<=50K` → 0  
@@ -146,7 +142,3 @@ Define a function `predict_income(user_input)`:
    - `0` → Income ≤ $50K
 
 ---
-
-**Author:** Your Name  
-**Dataset:** Census Income Dataset  
-**Framework:** PyTorch
